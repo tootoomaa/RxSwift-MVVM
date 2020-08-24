@@ -18,6 +18,7 @@
 		A168F0BE22FAFAC300A9E178 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168F0BD22FAFAC300A9E178 /* OrderViewController.swift */; };
 		A1869B8D2360A8000088AA9A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1869B8C2360A8000088AA9A /* Extensions.swift */; };
 		C79CAD7424F2572200E9C9AA /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79CAD7324F2572200E9C9AA /* Menu.swift */; };
+		C79CAD7624F25C5200E9C9AA /* MenuListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79CAD7524F25C5200E9C9AA /* MenuListViewModel.swift */; };
 		E2AFEEC81F02AC78E0249DDC /* Pods_RxSwift_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3442FB936BB096840300742 /* Pods_RxSwift_MVVM.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		A1869B8C2360A8000088AA9A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C566DF4A5E7D8CFD17BE3140 /* Pods-RxSwift+MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift+MVVM.release.xcconfig"; path = "Target Support Files/Pods-RxSwift+MVVM/Pods-RxSwift+MVVM.release.xcconfig"; sourceTree = "<group>"; };
 		C79CAD7324F2572200E9C9AA /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C79CAD7524F25C5200E9C9AA /* MenuListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewModel.swift; sourceTree = "<group>"; };
 		D3442FB936BB096840300742 /* Pods_RxSwift_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				C79CAD7324F2572200E9C9AA /* Menu.swift */,
+				C79CAD7724F25C5500E9C9AA /* ViewModel */,
 				A1869B892360A78C0088AA9A /* MenuList */,
 				A1869B8A2360A79F0088AA9A /* Order */,
 			);
@@ -167,6 +170,14 @@
 				A1869B8C2360A8000088AA9A /* Extensions.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		C79CAD7724F25C5500E9C9AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C79CAD7524F25C5200E9C9AA /* MenuListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		F63CBA0E98C6B4783BFB659C /* Pods */ = {
@@ -301,6 +312,7 @@
 				A168F0BC22FAF9B800A9E178 /* MenuItemTableViewCell.swift in Sources */,
 				A168F0A022F7FB2C00A9E178 /* AppDelegate.swift in Sources */,
 				A168F0B822FADE7000A9E178 /* Model.swift in Sources */,
+				C79CAD7624F25C5200E9C9AA /* MenuListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

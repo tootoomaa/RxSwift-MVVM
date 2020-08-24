@@ -365,7 +365,7 @@ completed							// 바인딩된 두 서브젝트가 둘다 completed되면 구�
 
 
 
-### Reference
+###           Reference
 
 -  [[Mastering RxSwift] Observables and Observers #1 - YouTube](https://www.youtube.com/watch?v=POqRqaJE4ec&list=PLziSvys01Oek7ANk4rzOYobnUU_FTu5ns&index=2) 
 -  [[Mastering RxSwift] PublishSubject - YouTube](https://www.youtube.com/watch?v=rlnbOzx-r-0&list=PLziSvys01Oek7ANk4rzOYobnUU_FTu5ns&index=3) 
